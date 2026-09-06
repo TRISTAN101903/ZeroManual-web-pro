@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZeroManual — LeaniZ_Flow Studio | Đổi tên & sắp xếp file hàng loạt</title>
+<meta name="description" content="LeaniZ_Flow Studio: công cụ đổi tên và sắp xếp file hàng loạt, xử lý 100% offline, dành cho Video Editor, DIT và Content Creator.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A1112'/%3E%3Cpath d='M9 21 L16 10 L23 21' stroke='%2335C9BA' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="page-glow" aria-hidden="true"></div>
+
+<!-- ========== NAV ========== -->
+<header class="nav">
+  <div class="container">
+    <a href="#top" class="nav-logo"><span>Zero</span><span class="dot">Manual</span></a>
+    <nav class="nav-links">
+      <a href="#product"><span data-lang="vi">Sản phẩm</span><span data-lang="en">Product</span></a>
+      <a href="#features"><span data-lang="vi">Tính năng</span><span data-lang="en">Features</span></a>
+      <a href="#pricing"><span data-lang="vi">Bảng giá</span><span data-lang="en">Pricing</span></a>
+      <a href="#team"><span data-lang="vi">Đội ngũ</span><span data-lang="en">Team</span></a>
+      <a href="#contact"><span data-lang="vi">Liên hệ</span><span data-lang="en">Contact</span></a>
+    </nav>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-set-lang="vi">VI</button>
+        <button type="button" data-set-lang="en">EN</button>
+      </div>
+        <a class="btn btn-ghost btn-sm js-pro-mail" href="mailto:thanhtuhaibabon@gmail.com?subject=Mua%20LeaniZ_Flow%20Studio%20PRO&body=Xin%20ch%C3%A0o%2C%0A%0AT%C3%B4i%20mu%E1%BB%91n%20mua%20b%E1%BA%A3n%20Lifetime%20PRO%20c%E1%BB%A7a%20LeaniZ_Flow%20Studio.%0A%0AT%C3%AAn%3A%0A">
+        <span data-lang="vi">Mua PRO</span><span data-lang="en">Get PRO</span>
+      </a>
+      <a class="btn btn-primary btn-sm" id="nav-download" href="https://github.com/uTnarT/zeromanual-app/releases/download/v1.0.0/Setup_LeaniZ_FLow_Studio.exe">
+        <span data-lang="vi">Tải miễn phí</span><span data-lang="en">Download</span>
+      </a>
+      <button type="button" class="nav-burger" id="nav-burger" aria-label="Menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu">
+    <a href="#product"><span data-lang="vi">Sản phẩm</span><span data-lang="en">Product</span></a>
+    <a href="#features"><span data-lang="vi">Tính năng</span><span data-lang="en">Features</span></a>
+    <a href="#pricing"><span data-lang="vi">Bảng giá</span><span data-lang="en">Pricing</span></a>
+    <a href="#team"><span data-lang="vi">Đội ngũ</span><span data-lang="en">Team</span></a>
+    <a href="#contact"><span data-lang="vi">Liên hệ</span><span data-lang="en">Contact</span></a>
+    <a class="btn btn-ghost btn-sm js-pro-mail" style="margin-top:10px;" href="mailto:thanhtuhaibabon@gmail.com?subject=Mua%20LeaniZ_Flow%20Studio%20PRO">
+      <span data-lang="vi">Liên hệ mua PRO</span><span data-lang="en">Contact to buy PRO</span>
+    </a>
+    <a class="btn btn-primary btn-sm" href="https://github.com/uTnarT/zeromanual-app/releases/download/v1.0.0/Setup_LeaniZ_FLow_Studio.exe">
+      <span data-lang="vi">Tải miễn phí</span><span data-lang="en">Download</span>
+    </a>
+  </nav>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="top" style="border-top:0;">
+  <div class="container hero-grid">
+    <div>
+      <div class="brand-lockup" aria-label="ZeroManual presents LeaniZ_Flow Studio">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-lockup-copy"><strong>ZeroManual</strong><small>PRODUCT SYSTEM / 01</small></span>
+      </div>
+      <span class="hero-kicker"><span class="rec"></span> LeaniZ_Flow&nbsp;Studio · Windows 10/11 (64-bit)</span>
+      <h1 class="hero-title">
+        <span data-lang="vi">Ngừng đổi tên từng file một.</span>
+        <span data-lang="en">Stop renaming files one at a time.</span>
+      </h1>
+      <p class="lede">
+        <span data-lang="vi">F2 → Đổi tên → Enter, lặp lại 500 lần. LeaniZ_Flow Studio dọn sạch hàng nghìn file trong vài giây — ngay trên máy của bạn, không qua cloud.</span>
+        <span data-lang="en">F2 → Rename → Enter, repeated 500 times. LeaniZ_Flow Studio cleans up thousands of files in seconds — right on your machine, no cloud involved.</span>
+      </p>
+      <div class="hero-actions">
+        <a href="https://github.com/uTnarT/zeromanual-app/releases/download/v1.0.0/Setup_LeaniZ_FLow_Studio.exe" class="btn btn-primary" id="hero-download">
+          <span data-lang="vi">Tải bản miễn phí</span><span data-lang="en">Download free edition</span>
+        </a>
+        <a href="#product" class="btn btn-ghost">
+          <span data-lang="vi">Xem vấn đề nó giải quyết</span><span data-lang="en">See what it solves</span>
+        </a>
+      </div>
+      <div class="hero-meta">
+        <span><strong data-lang="vi">Nền tảng</strong><span data-lang="en">Platform</span> · Windows 10/11</span>
+        <span><strong>100%</strong> <span data-lang="vi">offline</span><span data-lang="en">offline</span></span>
+        <span><span data-lang="vi">Không</span><span data-lang="en">Zero</span> malware / spyware</span>
+      </div>
+      <div class="hero-signature"><span class="signature-line"></span><span data-lang="vi">Một quy trình gọn hơn cho mỗi ngày làm việc.</span><span data-lang="en">A cleaner workflow for every working day.</span></div>
+    </div>
+
+    <div class="bin" id="bin-demo">
+      <div class="bin-head">
+        <span>media_bin.zmw</span>
+        <div class="traffic"><span></span><span></span><span></span></div>
+      </div>
+      <div class="bin-panes">
+        <div class="bin-pane before">
+          <div class="bin-pane-label before"><span class="dot"></span><span data-lang="vi">Trước</span><span data-lang="en">Before</span></div>
+          <div class="bin-row" data-row="0">IMG_2931.MOV</div>
+          <div class="bin-row" data-row="1">DSC00456.RAW</div>
+          <div class="bin-row" data-row="2">Clip_04_final_v2.mp4</div>
+          <div class="bin-row" data-row="3">100_0011.JPG</div>
+          <div class="bin-row" data-row="4">VID_20250912_221.mp4</div>
+          <div class="bin-row" data-row="5">untitled_copy.mov</div>
+        </div>
+        <div class="bin-pane after">
+          <div class="bin-pane-label after"><span class="dot"></span><span data-lang="vi">Sau</span><span data-lang="en">After</span></div>
+          <div class="bin-row" data-row="0">2026-01-15_ProjectX_A001.mov</div>
+          <div class="bin-row" data-row="1">2026-01-15_ProjectX_A002.raw</div>
+          <div class="bin-row" data-row="2">2026-01-15_ProjectX_A003.mp4</div>
+          <div class="bin-row" data-row="3">2026-01-15_ProjectX_A004.jpg</div>
+          <div class="bin-row" data-row="4">2026-01-15_ProjectX_A005.mp4</div>
+          <div class="bin-row" data-row="5">2026-01-15_ProjectX_A006.mov</div>
+        </div>
+      </div>
+      <div class="bin-arrow" id="bin-arrow">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="bin-foot">
+        <span data-lang="vi">6 tệp</span><span data-lang="en">6 files</span>
+        <span class="count" id="bin-time">&nbsp;</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROBLEM ========== -->
+<section id="product">
+  <div class="container">
+    <div class="product-intro reveal">
+      <div class="product-intro-label"><span class="intro-pulse"></span><span data-lang="vi">Giới thiệu sản phẩm</span><span data-lang="en">Product introduction</span></div>
+      <div class="product-intro-main">
+        <h2><span data-lang="vi">LeaniZ_Flow Studio biến những thao tác lặp lại thành một quy trình thông minh.</span><span data-lang="en">LeaniZ_Flow Studio turns repetitive tasks into a smarter workflow.</span></h2>
+        <p><span data-lang="vi">Được tạo cho Video Editor, DIT, Content Creator và những người phải làm việc với hàng trăm file mỗi ngày. Bạn chọn file, đặt quy tắc, rồi để công cụ xử lý phần còn lại một cách nhanh chóng, riêng tư và nhất quán.</span><span data-lang="en">Built for Video Editors, DITs, Content Creators, and anyone working with hundreds of files every day. Choose your files, set your rules, and let the tool handle the rest quickly, privately, and consistently.</span></p>
+      </div>
+      <div class="product-intro-stats">
+        <div><strong>01</strong><span data-lang="vi">Chọn một lần</span><span data-lang="en">Select once</span></div>
+        <div><strong>∞</strong><span data-lang="vi">Ít thao tác hơn</span><span data-lang="en">Fewer clicks</span></div>
+        <div><strong>0%</strong><span data-lang="vi">Dữ liệu rời máy</span><span data-lang="en">Data leaves device</span></div>
+      </div>
+    </div>
+    <div class="section-head">
+      <span class="eyebrow" data-lang="vi">Vấn đề</span><span class="eyebrow" data-lang="en">The problem</span>
+      <h2>
+        <span data-lang="vi">Khoảng 1 giờ chỉ để đổi tên 500 file.</span>
+        <span data-lang="en">About an hour just to rename 500 files.</span>
+      </h2>
+    </div>
+    <div class="problem-copy reveal">
+      <p data-lang="vi">Bạn có bao giờ dành cả 1 tiếng đồng hồ chỉ để bấm <span class="filename">F2 → Đổi tên → Enter</span>, rồi lặp lại thao tác đó với 500 file ảnh, video hay hợp đồng chưa? Đó là "cơn ác mộng" âm thầm mà dân văn phòng, photographer, video editor hay content creator nào cũng từng trải qua.</p>
+      <p data-lang="en">Have you ever spent a full hour just pressing <span class="filename">F2 → Rename → Enter</span>, then repeating it across 500 photos, videos, or contracts? It's the quiet nightmare every office worker, photographer, video editor, or content creator has lived through.</p>
+      <p data-lang="vi">Chỉ vì đổi tên sai cấu trúc, sắp xếp nhầm folder hay làm sót một file mà cả quy trình công việc bị tắc nghẽn, tốn vô số thời gian cho những việc hoàn toàn vô nghĩa.</p>
+      <p data-lang="en">One wrong naming pattern, one misplaced folder, one missed file — and the whole workflow grinds to a halt, burning hours on work that means nothing.</p>
+      <div class="timer-strip" id="timer-strip">
+        <span data-lang="vi">~1 giờ đã mất</span><span data-lang="en">~1 hour lost</span>
+        <div class="bar"><span></span></div>
+        <span>500 <span data-lang="vi">file</span><span data-lang="en">files</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== COMPARE ========== -->
+<section id="compare">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-lang="vi">Đã thử cách khác?</span><span class="eyebrow" data-lang="en">Already tried alternatives?</span>
+      <h2>
+        <span data-lang="vi">Tìm một công cụ thay thế cũng chẳng dễ.</span>
+        <span data-lang="en">Finding a replacement isn't easy either.</span>
+      </h2>
+      <p data-lang="vi">Bulk Rename Utility mạnh nhưng rối rắm như màn hình lập trình. Tool AI online tiện nhưng phải tải dữ liệu khách hàng lên máy chủ bên thứ ba.</p>
+      <p data-lang="en">Bulk Rename Utility is powerful but as cluttered as a programming console. Online AI tools are convenient but upload your client's files to a third-party server.</p>
+    </div>
+    <div class="compare-scroll reveal">
+      <table class="compare">
+        <thead>
+          <tr>
+            <th><span data-lang="vi">Tiêu chí</span><span data-lang="en">Criteria</span></th>
+            <th><span data-lang="vi">Giao diện</span><span data-lang="en">Interface</span></th>
+            <th><span data-lang="vi">Dữ liệu</span><span data-lang="en">Data</span></th>
+            <th><span data-lang="vi">Tốc độ</span><span data-lang="en">Speed</span></th>
+            <th><span data-lang="vi">Chi phí</span><span data-lang="en">Cost</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bulk Rename Utility</td>
+            <td class="bad"><span data-lang="vi">Phức tạp, như lập trình</span><span data-lang="en">Complex, code-like</span></td>
+            <td class="good"><span data-lang="vi">Offline</span><span data-lang="en">Offline</span></td>
+            <td><span data-lang="vi">Nhanh khi đã quen</span><span data-lang="en">Fast once learned</span></td>
+            <td><span data-lang="vi">Miễn phí</span><span data-lang="en">Free</span></td>
+          </tr>
+          <tr>
+            <td><span data-lang="vi">Tool AI online</span><span data-lang="en">Online AI tools</span></td>
+            <td class="good"><span data-lang="vi">Đơn giản, dễ dùng</span><span data-lang="en">Simple, easy</span></td>
+            <td class="bad"><span data-lang="vi">Tải lên cloud — rủi ro rò rỉ</span><span data-lang="en">Uploaded to cloud — leak risk</span></td>
+            <td class="bad"><span data-lang="vi">Chập chờn, phụ thuộc API</span><span data-lang="en">Inconsistent, API-dependent</span></td>
+            <td><span data-lang="vi">Trả phí theo API</span><span data-lang="en">Pay-per-API</span></td>
+          </tr>
+          <tr class="zm">
+            <td>ZeroManual</td>
+            <td class="good"><span data-lang="vi">Tối giản, trực quan</span><span data-lang="en">Minimal, intuitive</span></td>
+            <td class="good"><span data-lang="vi">100% offline, không rời máy</span><span data-lang="en">100% offline, never leaves device</span></td>
+            <td class="good"><span data-lang="vi">Hàng nghìn file trong chớp mắt</span><span data-lang="en">Thousands of files, instantly</span></td>
+            <td class="good"><span data-lang="vi">Miễn phí + nâng cấp một lần</span><span data-lang="en">Free + one-time upgrade</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FEATURES ========== -->
+<section id="features">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-lang="vi">Giải pháp</span><span class="eyebrow" data-lang="en">The solution</span>
+      <h2>
+        <span data-lang="vi">Gọn, nhẹ, an toàn tuyệt đối.</span>
+        <span data-lang="en">Lean, light, and absolutely safe.</span>
+      </h2>
+      <p data-lang="vi">Công cụ xử lý file thế hệ mới, thiết kế tối giản, giải quyết triệt để nỗi đau rename và sorting chỉ trong vài cú click.</p>
+      <p data-lang="en">A next-generation file tool, designed minimal, solving the pain of renaming and sorting in just a few clicks.</p>
+    </div>
+    <div class="features reveal">
+      <div class="feature teal">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3><span data-lang="vi">Tốc độ &amp; bảo mật</span><span data-lang="en">Speed &amp; security</span></h3>
+        <p><span data-lang="vi">Xử lý offline trực tiếp trên máy tính. Không gọi API, không tải dữ liệu lên cloud.</span><span data-lang="en">Processed offline right on your computer. No API calls, no data uploaded to the cloud.</span></p>
+      </div>
+      <div class="feature teal">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 4 6v6c0 4.5 3.2 7.7 8 9 4.8-1.3 8-4.5 8-9V6l-8-3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3><span data-lang="vi">Sạch 100%</span><span data-lang="en">100% clean</span></h3>
+        <p><span data-lang="vi">Cam kết không chứa malware, spyware hay virus.</span><span data-lang="en">No malware, spyware, or viruses — guaranteed.</span></p>
+      </div>
+      <div class="feature amber">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" stroke="currentColor" stroke-width="1.6"/></svg></div>
+        <h3><span data-lang="vi">Miễn phí để bắt đầu</span><span data-lang="en">Free to start</span></h3>
+        <p><span data-lang="vi">Toàn bộ tính năng xử lý cơ bản, đủ dùng cho mọi nhu cầu hàng ngày.</span><span data-lang="en">All core processing features, ready for everyday use.</span></p>
+      </div>
+      <div class="feature amber">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M6 3h12l3 5-9 13L3 8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 8h18M9 3l3 5 3-5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3><span data-lang="vi">Undo / Redo trọn đời</span><span data-lang="en">Lifetime Undo / Redo</span></h3>
+        <p><span data-lang="vi">Nâng cấp một lần, quay ngược mọi thao tác nhầm chỉ với một tổ hợp phím.</span><span data-lang="en">Upgrade once, rewind any mistake with a single keystroke.</span></p>
+      </div>
+    </div>
+
+    <div class="showcase reveal" style="margin-top:22px;">
+      <a class="showcase-card" href="https://docs.superhuman.com/d/_dE8X-62yM30/LeaniZ-Flow-Studio_suC8odOe" target="_blank" rel="noopener">
+        <div>
+          <h4><span data-lang="vi">Xem showcase chi tiết</span><span data-lang="en">View full showcase</span></h4>
+          <p><span data-lang="vi">Toàn bộ tính năng, từng bước một</span><span data-lang="en">Every feature, step by step</span></p>
+        </div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="color:var(--teal);flex-shrink:0;"><path d="M7 17 17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a class="showcase-card" href="https://drive.google.com/file/d/1ss9nCupFYgp-D_tIpA5J7oiFU_DRkNym/view?usp=sharing" target="_blank" rel="noopener">
+        <div>
+          <h4><span data-lang="vi">Video hướng dẫn sử dụng</span><span data-lang="en">Usage walkthrough video</span></h4>
+          <p><span data-lang="vi">Xem cách thao tác thực tế</span><span data-lang="en">See it in action</span></p>
+        </div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="color:var(--teal);flex-shrink:0;"><path d="M7 17 17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRICING ========== -->
+<section id="pricing">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-lang="vi">Bảng giá</span><span class="eyebrow" data-lang="en">Pricing</span>
+      <h2><span data-lang="vi">Miễn phí để dùng. Trả một lần để làm chủ hoàn toàn.</span><span data-lang="en">Free to use. Pay once to take full control.</span></h2>
+    </div>
+    <div class="pricing reveal">
+      <div class="plan">
+        <span class="plan-tag">FREE EDITION</span>
+        <h3><span data-lang="vi">Miễn phí</span><span data-lang="en">Free</span></h3>
+        <div class="price">0đ <small>/ <span data-lang="vi">vĩnh viễn</span><span data-lang="en">forever</span></small></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-lang="vi">Đổi tên file hàng loạt</span><span data-lang="en">Batch file renaming</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-lang="vi">Sắp xếp thư mục tự động</span><span data-lang="en">Automatic folder sorting</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-lang="vi">Xử lý offline 100%</span><span data-lang="en">100% offline processing</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-lang="vi">Không quảng cáo</span><span data-lang="en">No ads</span></li>
+        </ul>
+        <a href="https://github.com/uTnarT/zeromanual-app/releases/download/v1.0.0/Setup_LeaniZ_FLow_Studio.exe" class="btn btn-ghost btn-block"><span data-lang="vi">Tải miễn phí</span><span data-lang="en">Download free</span></a>
+      </div>
+      <div class="plan plan-pro">
+        <span class="plan-badge"><span data-lang="vi">Khuyên dùng</span><span data-lang="en">Recommended</span></span>
+        <span class="plan-tag">LIFETIME PRO</span>
+        <h3>Undo / Redo</h3>
+        <div class="price"><span data-lang="vi">125.000đ</span><span data-lang="en">$5</span> <small><span data-lang="vi">/ trả một lần</span><span data-lang="en">/ one-time</span></small></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-lang="vi">Toàn bộ tính năng Free</span><span data-lang="en">Everything in Free</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-lang="vi">Undo / Redo không giới hạn</span><span data-lang="en">Unlimited Undo / Redo</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-lang="vi">Hỗ trợ ưu tiên qua email</span><span data-lang="en">Priority email support</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-lang="vi">Cập nhật trọn đời</span><span data-lang="en">Lifetime updates</span></li>
+        </ul>
+        <a href="mailto:thanhtuhaibabon@gmail.com?subject=Mua%20LeaniZ_Flow%20Studio%20PRO&amp;body=Xin%20ch%C3%A0o%2C%20t%C3%B4i%20mu%E1%BB%91n%20mua%20b%E1%BA%A3n%20LeaniZ_Flow%20Studio%20PRO.%20Vui%20l%C3%B2ng%20t%C6%B0%20v%E1%BA%A5n%20th%C3%AAm%20cho%20t%C3%B4i." class="btn btn-primary btn-block js-pro-mail">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          <span data-lang="vi">Liên hệ mua PRO</span><span data-lang="en">Contact to buy PRO</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TEAM ========== -->
+<section id="team">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-lang="vi">Đội ngũ</span><span class="eyebrow" data-lang="en">Team</span>
+      <h2><span data-lang="vi">Người đứng sau ZeroManual</span><span data-lang="en">The person behind ZeroManual</span></h2>
+    </div>
+    <div class="team reveal">
+      <div class="team-avatar">NT</div>
+      <div class="team-info">
+        <h3>Nguyễn Minh Tristan</h3>
+        <span class="role"><span data-lang="vi">Người sáng lập &amp; Phát triển ZeroManual</span><span data-lang="en">Founder &amp; Developer, ZeroManual</span></span>
+        <p><span data-lang="vi">Xây dựng ZeroManual từ chính sự khó chịu với việc đổi tên file thủ công mỗi ngày. Mục tiêu đơn giản: giúp dân sáng tạo và dân văn phòng lấy lại thời gian cho công việc thật sự quan trọng.</span><span data-lang="en">Built ZeroManual out of personal frustration with renaming files by hand every day. The goal is simple: give creators and office workers their time back for the work that actually matters.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact">
+  <div class="container contact-grid">
+    <div>
+      <div class="section-head" style="margin-bottom:28px;">
+        <span class="eyebrow" data-lang="vi">Hỗ trợ &amp; liên hệ</span><span class="eyebrow" data-lang="en">Support &amp; contact</span>
+        <h2><span data-lang="vi">Cần giúp đỡ hoặc muốn mua PRO?</span><span data-lang="en">Need help, or want to buy PRO?</span></h2>
+      </div>
+      <a class="pro-mail-card js-pro-mail" href="mailto:thanhtuhaibabon@gmail.com?subject=Mua%20LeaniZ_Flow%20Studio%20PRO">
+        <span class="label"><span data-lang="vi">Mua PRO — bấm để soạn email</span><span data-lang="en">Buy PRO — click to compose email</span></span>
+        <strong>thanhtuhaibabon@gmail.com</strong>
+        <span class="pro-mail-cta">
+          <span data-lang="vi">Mở hộp thoại soạn thư →</span>
+          <span data-lang="en">Open compose window →</span>
+        </span>
+      </a>
+      <div class="contact-info">
+        <div class="item">
+          <span class="label"><span data-lang="vi">Email hỗ trợ</span><span data-lang="en">Support email</span></span>
+          <a class="js-support-mail" href="mailto:thanhtuhaibabon@gmail.com?subject=H%E1%BB%97%20tr%E1%BB%A3%20ZeroManual">thanhtuhaibabon@gmail.com</a>
+        </div>
+        <div class="item contact-highlight">
+          <span class="label"><span class="status-dot"></span><span data-lang="vi">Nền tảng hỗ trợ</span><span data-lang="en">Supported platform</span></span>
+          <span class="val"><span data-lang="vi">Windows 10/11 · 64-bit</span><span data-lang="en">Windows 10/11 · 64-bit</span></span>
+        </div>
+        <div class="item contact-highlight">
+          <span class="label"><span class="status-dot teal"></span><span data-lang="vi">Cam kết dữ liệu</span><span data-lang="en">Data promise</span></span>
+          <span class="val"><span data-lang="vi">100% offline, không upload file</span><span data-lang="en">100% offline, no file uploads</span></span>
+        </div>
+      </div>
+      <div class="faq-note">
+        <strong data-lang="vi">Cảnh báo SmartScreen?</strong><strong data-lang="en">SmartScreen warning?</strong>
+        <div style="margin-top:6px;">
+          <span data-lang="vi">Bình thường với các tool độc lập chưa có chữ ký số. Bấm "More info" → "Run anyway" để tiếp tục cài đặt.</span>
+          <span data-lang="en">Normal for independent tools without a paid signature. Click "More info" → "Run anyway" to continue installing.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="why-use reveal">
+      <div class="why-use-heading">
+        <span class="eyebrow"><span data-lang="vi">Tại sao ZeroManual?</span><span data-lang="en">Why ZeroManual?</span></span>
+        <h3><span data-lang="vi">Lấy lại thời gian cho công việc thật sự quan trọng.</span><span data-lang="en">Get your time back for work that matters.</span></h3>
+      </div>
+      <div class="why-list">
+        <div class="why-item">
+          <span class="why-number">01</span>
+          <div><strong><span data-lang="vi">Nhanh hơn từng thao tác</span><span data-lang="en">Faster every time</span></strong><p><span data-lang="vi">Đổi tên và sắp xếp hàng trăm file chỉ trong vài giây.</span><span data-lang="en">Rename and sort hundreds of files in seconds.</span></p></div>
+        </div>
+        <div class="why-item">
+          <span class="why-number">02</span>
+          <div><strong><span data-lang="vi">Dữ liệu luôn ở bên bạn</span><span data-lang="en">Your data stays yours</span></strong><p><span data-lang="vi">Xử lý 100% offline, không upload file lên cloud.</span><span data-lang="en">100% offline processing, with no files uploaded to the cloud.</span></p></div>
+        </div>
+        <div class="why-item">
+          <span class="why-number">03</span>
+          <div><strong><span data-lang="vi">Dùng được ngay lập tức</span><span data-lang="en">Ready from the first click</span></strong><p><span data-lang="vi">Giao diện trực quan, không cần học công cụ phức tạp.</span><span data-lang="en">An intuitive interface without a steep learning curve.</span></p></div>
+        </div>
+      </div>
+      <div class="workflow-line">
+        <span class="workflow-label"><span data-lang="vi">Quy trình</span><span data-lang="en">Workflow</span></span>
+        <span><b>01</b> <span data-lang="vi">Chọn file</span><span data-lang="en">Choose files</span></span><i></i><span><b>02</b> <span data-lang="vi">Đặt quy tắc</span><span data-lang="en">Set rules</span></span><i></i><span><b>03</b> <span data-lang="vi">Xong</span><span data-lang="en">Done</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> ZeroManual · <span data-lang="vi">Sáng lập bởi</span><span data-lang="en">Founded by</span> Nguyễn Minh Tristan</p>
+    <div class="foot-links">
+      <a href="mailto:thanhtuhaibabon@gmail.com">Email</a>
+      <span><span data-lang="vi">Windows 10/11</span><span data-lang="en">Windows 10/11</span></span>
+      <span><span data-lang="vi">100% offline</span><span data-lang="en">100% offline</span></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/db.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
